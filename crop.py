@@ -2,7 +2,7 @@ import os
 import string
 import sys
 
-print("\nUFED HTML Report Crop - © Christian Peter - 2020\n")
+print("\nUFED HTML Report Crop - © Christian Peter - 2023\n")
 
 try:
     try:
@@ -17,7 +17,7 @@ try:
 
     finally:
 
-        c1 = text.replace('<div class="padding2_8','<split>') 
+        c1 = text.replace('<div style="display:none;" class="padding2_8','<split>') 
         c2 = c1.replace('ytes)</span><br /></div></div></span></div></div></div></td>','<split>')
         new = c2.split('<split>')
 
